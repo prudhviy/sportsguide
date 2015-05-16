@@ -78,6 +78,7 @@
     Term *term = terms[indexPath.row];
  
     cell.textLabel.text = [term name];
+    [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
     return cell;
 }
 
