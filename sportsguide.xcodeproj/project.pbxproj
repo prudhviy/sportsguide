@@ -14,6 +14,14 @@
 		A4F2B9DA1B05BAAF0007497A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F2B9D91B05BAAF0007497A /* Images.xcassets */; };
 		A4F2B9DD1B05BAAF0007497A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F2B9DB1B05BAAF0007497A /* LaunchScreen.xib */; };
 		A4F2B9E91B05BAAF0007497A /* sportsguideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9E81B05BAAF0007497A /* sportsguideTests.m */; };
+		A4F2B9FA1B05BC900007497A /* TermStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9F91B05BC900007497A /* TermStore.m */; };
+		A4F2B9FD1B05BE130007497A /* Term.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9FC1B05BE130007497A /* Term.m */; };
+		A4F2BA061B05C5280007497A /* TermViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2BA041B05C5280007497A /* TermViewController.m */; };
+		A4F2BA071B05C5280007497A /* TermViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F2BA051B05C5280007497A /* TermViewController.xib */; };
+		A4F2BA091B05C6630007497A /* SoccerballItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4F2BA081B05C6630007497A /* SoccerballItem.plist */; };
+		A4F2BA0D1B05C8A40007497A /* TermDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2BA0B1B05C8A40007497A /* TermDetailViewController.m */; };
+		A4F2BA0E1B05C8A40007497A /* TermDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F2BA0C1B05C8A40007497A /* TermDetailViewController.xib */; };
+		A4F2BA121B05CD0A0007497A /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4F2BA111B05CD0A0007497A /* facts.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		A4F2B9E21B05BAAF0007497A /* sportsguideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sportsguideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F2B9E71B05BAAF0007497A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F2B9E81B05BAAF0007497A /* sportsguideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sportsguideTests.m; sourceTree = "<group>"; };
+		A4F2B9F81B05BC900007497A /* TermStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermStore.h; sourceTree = "<group>"; };
+		A4F2B9F91B05BC900007497A /* TermStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermStore.m; sourceTree = "<group>"; };
+		A4F2B9FB1B05BE130007497A /* Term.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Term.h; sourceTree = "<group>"; };
+		A4F2B9FC1B05BE130007497A /* Term.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Term.m; sourceTree = "<group>"; };
+		A4F2BA031B05C5280007497A /* TermViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermViewController.h; sourceTree = "<group>"; };
+		A4F2BA041B05C5280007497A /* TermViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermViewController.m; sourceTree = "<group>"; };
+		A4F2BA051B05C5280007497A /* TermViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermViewController.xib; sourceTree = "<group>"; };
+		A4F2BA081B05C6630007497A /* SoccerballItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SoccerballItem.plist; path = ../../../Dropbox/david_new/Soccer/SoccerballItem.plist; sourceTree = "<group>"; };
+		A4F2BA0A1B05C8A40007497A /* TermDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermDetailViewController.h; sourceTree = "<group>"; };
+		A4F2BA0B1B05C8A40007497A /* TermDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermDetailViewController.m; sourceTree = "<group>"; };
+		A4F2BA0C1B05C8A40007497A /* TermDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermDetailViewController.xib; sourceTree = "<group>"; };
+		A4F2BA111B05CD0A0007497A /* facts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = facts.plist; path = ../../../Dropbox/david_new/Soccer/facts.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +109,16 @@
 				A4F2B9D91B05BAAF0007497A /* Images.xcassets */,
 				A4F2B9DB1B05BAAF0007497A /* LaunchScreen.xib */,
 				A4F2B9CC1B05BAAF0007497A /* Supporting Files */,
+				A4F2B9F81B05BC900007497A /* TermStore.h */,
+				A4F2B9F91B05BC900007497A /* TermStore.m */,
+				A4F2B9FB1B05BE130007497A /* Term.h */,
+				A4F2B9FC1B05BE130007497A /* Term.m */,
+				A4F2BA031B05C5280007497A /* TermViewController.h */,
+				A4F2BA041B05C5280007497A /* TermViewController.m */,
+				A4F2BA051B05C5280007497A /* TermViewController.xib */,
+				A4F2BA0A1B05C8A40007497A /* TermDetailViewController.h */,
+				A4F2BA0B1B05C8A40007497A /* TermDetailViewController.m */,
+				A4F2BA0C1B05C8A40007497A /* TermDetailViewController.xib */,
 			);
 			path = sportsguide;
 			sourceTree = "<group>";
@@ -96,6 +126,8 @@
 		A4F2B9CC1B05BAAF0007497A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4F2BA081B05C6630007497A /* SoccerballItem.plist */,
+				A4F2BA111B05CD0A0007497A /* facts.plist */,
 				A4F2B9CD1B05BAAF0007497A /* Info.plist */,
 				A4F2B9CE1B05BAAF0007497A /* main.m */,
 			);
@@ -201,7 +233,11 @@
 			files = (
 				A4F2B9D81B05BAAF0007497A /* Main.storyboard in Resources */,
 				A4F2B9DD1B05BAAF0007497A /* LaunchScreen.xib in Resources */,
+				A4F2BA091B05C6630007497A /* SoccerballItem.plist in Resources */,
+				A4F2BA121B05CD0A0007497A /* facts.plist in Resources */,
+				A4F2BA071B05C5280007497A /* TermViewController.xib in Resources */,
 				A4F2B9DA1B05BAAF0007497A /* Images.xcassets in Resources */,
+				A4F2BA0E1B05C8A40007497A /* TermDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F2B9FD1B05BE130007497A /* Term.m in Sources */,
+				A4F2BA0D1B05C8A40007497A /* TermDetailViewController.m in Sources */,
 				A4F2B9D51B05BAAF0007497A /* ViewController.m in Sources */,
 				A4F2B9D21B05BAAF0007497A /* AppDelegate.m in Sources */,
 				A4F2B9CF1B05BAAF0007497A /* main.m in Sources */,
+				A4F2BA061B05C5280007497A /* TermViewController.m in Sources */,
+				A4F2B9FA1B05BC900007497A /* TermStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

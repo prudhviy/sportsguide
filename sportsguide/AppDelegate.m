@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TermViewController.h"
+#import "TermDetailViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    TermViewController *termsVC = [[TermViewController alloc] init];
+    TermDetailViewController *detailVC = [[TermDetailViewController alloc] init];
+    
+    UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:termsVC];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[navController, detailVC];
+    
+    self.window.rootViewController = tabBarController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
