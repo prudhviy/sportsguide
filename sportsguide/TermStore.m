@@ -69,6 +69,7 @@
         [self.privateTerms addObject:newTerm];
         newTerm = nil;
     }
+    termsArray = nil;
 }
 
 @end
