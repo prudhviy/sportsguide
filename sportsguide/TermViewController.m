@@ -59,7 +59,6 @@
     self.searchController.hidesNavigationBarDuringPresentation = NO;
     self.searchController.searchBar.frame = CGRectMake(self.searchController.searchBar.frame.origin.x, self.searchController.searchBar.frame.origin.y, self.searchController.searchBar.frame.size.width, 44.0);
     self.searchController.dimsBackgroundDuringPresentation = FALSE;
-    //self.searchController.disablesAutomaticKeyboardDismissal
     self.tableView.tableHeaderView = self.searchController.searchBar;
 }
 
@@ -158,8 +157,8 @@
  
     // Give detail view controller a pointer to the item object in row
     detailViewController.term = selectedTerm;
-    
-    //[self.searchController.searchBar resignFirstResponder];
+    // hide keyboard 
+    [self.searchController.searchBar resignFirstResponder];
     self.searchController.searchBar.hidden = TRUE;
 
     //[self.navigationController presentViewController:detailViewController animated:YES completion:nil];
