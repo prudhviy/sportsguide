@@ -56,6 +56,7 @@
     
     self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
     self.searchController.searchResultsUpdater = self;
+    self.searchController.hidesNavigationBarDuringPresentation = NO;
     self.searchController.searchBar.frame = CGRectMake(self.searchController.searchBar.frame.origin.x, self.searchController.searchBar.frame.origin.y, self.searchController.searchBar.frame.size.width, 44.0);
     self.searchController.dimsBackgroundDuringPresentation = FALSE;
     //self.searchController.disablesAutomaticKeyboardDismissal
@@ -65,6 +66,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    //[self.tableView reloadData]; // to reload selected cell
+    self.searchController.searchBar.hidden = FALSE;
 }
 
 #pragma mark - Table view data source
@@ -151,10 +158,14 @@
  
     // Give detail view controller a pointer to the item object in row
     detailViewController.term = selectedTerm;
- 
+    
+    //[self.searchController.searchBar resignFirstResponder];
+    self.searchController.searchBar.hidden = TRUE;
+
+    //[self.navigationController presentViewController:detailViewController animated:YES completion:nil];
     // Push it onto the top of the navigation controller's stack
     [self.navigationController pushViewController:detailViewController animated:YES];
- 
+    
     //<#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
 }
 
