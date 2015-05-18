@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>arraypart</key>
+		<array>
+			<string>U.S. Soccers All-Time Athlete of the Year Award Winners</string>
+			<string>Elected on June 21, 1913, Dr.G.Randolph, who was also the American Amateur FootballAssociation President, was the first president of U.S. Soccer (then the USFA).</string>
+			<string>Throughout the 90-year histroy of U.S. Soccer, the organization has been known by three different names;</string>
+			<string>U.S. Football Association - 1913 -1944</string>
+			<string>U.S. Soccer Football Association - 1945 -1973</string>
+			<string>U.S. Soccer Federation - 1947 - Current</string>
+			<string>The United States Football Association (renamed U.S. Soccer Federation) was granted provisonal membership by the federation intermationale de Football Association (FIFA) on August 15, 1913. A year later the organiation was granted full membership.</string>
+		</array>
+		<key>factTitle</key>
+		<string>ABOUT U.S SOCCER</string>
+	</dict>
+	<dict>
+		<key>arraypart</key>
+		<array>
+			<string>1984 Rick Davis</string>
+			<string>1985 Perry Van der Beck</string>
+			<string>1986 Paul Caligiuri</string>
+			<string>1987 Brent Goulet</string>
+			<string>1988 Peter Vermes</string>
+			<string>1989 Mike Windischmann</string>
+			<string>1990 Tab Ramos</string>
+			<string>1991 Hugo Perez</string>
+			<string>1992 Marcelo Balboa</string>
+			<string>1993 Thomas Dooley</string>
+			<string>1994 Marcelo Balboa</string>
+			<string>1995 Alexi Lalas</string>
+			<string>1996 Eric Wynalda</string>
+			<string>1997 Kasey Keller</string>
+			<string>1998 Cobi Johes</string>
+			<string>1999 Kasey Keller</string>
+			<string>2000 Chris Armas</string>
+			<string>2001 Earnie Stewart</string>
+			<string>2002 Brad Friedel</string>
+			<string>2003 Landon Donovan</string>
+			<string>2004 Landon Donovan</string>
+			<string>2005 Kasey Keller</string>
+			<string>fact1</string>
+			<string>fact2</string>
+		</array>
+		<key>factTitle</key>
+		<string>YEAR MALE ATHLETE OF THE YEAR</string>
+	</dict>
+</array>
+</plist>
