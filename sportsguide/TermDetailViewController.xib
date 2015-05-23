@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermDetailViewController">
             <connections>
+                <outlet property="playerView" destination="d5x-Ne-SvL" id="qFz-qf-Tg8"/>
                 <outlet property="termDetail" destination="76c-Il-EPg" id="Txd-Rn-Qpz"/>
                 <outlet property="termName" destination="75V-zW-e9p" id="i7k-HK-36E"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -32,6 +33,10 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5x-Ne-SvL" customClass="YTPlayerView">
+                    <rect key="frame" x="109" y="331" width="413" height="242"/>
+                    <color key="backgroundColor" red="0.84114583333333337" green="0.84114583333333337" blue="0.84114583333333337" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -39,6 +44,7 @@
                 <constraint firstItem="76c-Il-EPg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="161" id="Nd2-Zk-b6n"/>
                 <constraint firstAttribute="centerX" secondItem="76c-Il-EPg" secondAttribute="centerX" id="aMj-dG-Xlx"/>
                 <constraint firstItem="75V-zW-e9p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="93" id="fTM-5r-9Lr"/>
+                <constraint firstAttribute="centerX" secondItem="d5x-Ne-SvL" secondAttribute="centerX" id="pme-Al-OLU"/>
             </constraints>
         </view>
     </objects>

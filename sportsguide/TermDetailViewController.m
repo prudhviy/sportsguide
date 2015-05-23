@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *termName;
 @property (weak, nonatomic) IBOutlet UILabel *termDetail;
+@property (weak, nonatomic) IBOutlet YTPlayerView *playerView;
 
 @end
 
@@ -41,6 +42,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self.playerView loadWithVideoId:@"M7lc1UVf-VE"];
 }
 
 - (void)didReceiveMemoryWarning {
