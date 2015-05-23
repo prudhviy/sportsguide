@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A40D30DD1B096F6B00B75020 /* facts.plist in Resources */ = {isa = PBXBuildFile; fileRef = A40D30DB1B096F6B00B75020 /* facts.plist */; };
 		A40D30DE1B096F6B00B75020 /* SoccerballItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A40D30DC1B096F6B00B75020 /* SoccerballItem.plist */; };
+		A41C87A81B0FFE2A004B3E75 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C87A71B0FFE2A004B3E75 /* YTPlayerView.m */; };
+		A41C87AA1B0FFE3B004B3E75 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = A41C87A91B0FFE3B004B3E75 /* Assets */; };
 		A4F2B9CF1B05BAAF0007497A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9CE1B05BAAF0007497A /* main.m */; };
 		A4F2B9D21B05BAAF0007497A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9D11B05BAAF0007497A /* AppDelegate.m */; };
 		A4F2B9D51B05BAAF0007497A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9D41B05BAAF0007497A /* ViewController.m */; };
@@ -37,6 +39,9 @@
 /* Begin PBXFileReference section */
 		A40D30DB1B096F6B00B75020 /* facts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = facts.plist; sourceTree = "<group>"; };
 		A40D30DC1B096F6B00B75020 /* SoccerballItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SoccerballItem.plist; sourceTree = "<group>"; };
+		A41C87A61B0FFE2A004B3E75 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		A41C87A71B0FFE2A004B3E75 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		A41C87A91B0FFE3B004B3E75 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		A4F2B9C91B05BAAF0007497A /* sportsguide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportsguide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F2B9CD1B05BAAF0007497A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F2B9CE1B05BAAF0007497A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,10 +110,11 @@
 				A4F2B9D11B05BAAF0007497A /* AppDelegate.m */,
 				A4F2B9D31B05BAAF0007497A /* ViewController.h */,
 				A4F2B9D41B05BAAF0007497A /* ViewController.m */,
+				A41C87A61B0FFE2A004B3E75 /* YTPlayerView.h */,
+				A41C87A71B0FFE2A004B3E75 /* YTPlayerView.m */,
 				A4F2B9D61B05BAAF0007497A /* Main.storyboard */,
 				A4F2B9D91B05BAAF0007497A /* Images.xcassets */,
 				A4F2B9DB1B05BAAF0007497A /* LaunchScreen.xib */,
-				A4F2B9CC1B05BAAF0007497A /* Supporting Files */,
 				A4F2B9F81B05BC900007497A /* TermStore.h */,
 				A4F2B9F91B05BC900007497A /* TermStore.m */,
 				A4F2B9FB1B05BE130007497A /* Term.h */,
@@ -119,6 +125,8 @@
 				A4F2BA0A1B05C8A40007497A /* TermDetailViewController.h */,
 				A4F2BA0B1B05C8A40007497A /* TermDetailViewController.m */,
 				A4F2BA0C1B05C8A40007497A /* TermDetailViewController.xib */,
+				A41C87A91B0FFE3B004B3E75 /* Assets */,
+				A4F2B9CC1B05BAAF0007497A /* Supporting Files */,
 			);
 			path = sportsguide;
 			sourceTree = "<group>";
@@ -232,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4F2B9D81B05BAAF0007497A /* Main.storyboard in Resources */,
+				A41C87AA1B0FFE3B004B3E75 /* Assets in Resources */,
 				A4F2B9DD1B05BAAF0007497A /* LaunchScreen.xib in Resources */,
 				A4F2BA071B05C5280007497A /* TermViewController.xib in Resources */,
 				A4F2B9DA1B05BAAF0007497A /* Images.xcassets in Resources */,
@@ -261,6 +270,7 @@
 				A4F2B9D21B05BAAF0007497A /* AppDelegate.m in Sources */,
 				A4F2B9CF1B05BAAF0007497A /* main.m in Sources */,
 				A4F2BA061B05C5280007497A /* TermViewController.m in Sources */,
+				A41C87A81B0FFE2A004B3E75 /* YTPlayerView.m in Sources */,
 				A4F2B9FA1B05BC900007497A /* TermStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
