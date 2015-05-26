@@ -27,7 +27,7 @@
     
     if (self) {
         self.title = @"Terms";
-        //self.tabBarItem.image
+        self.tabBarItem.image = [UIImage imageNamed:@"terms.png"];
         // loads all terms from plist file to store
         [[TermStore sharedStore] loadAllTerms];
         self.searchResults = [NSMutableArray arrayWithCapacity: [[[TermStore sharedStore] allTerms] count]];
