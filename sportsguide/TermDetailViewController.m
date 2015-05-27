@@ -26,8 +26,8 @@
     if (self) {
         
         // Set the tab bar item's title
-        self.tabBarItem.title = @"Facts";
-        self.tabBarItem.image = [UIImage imageNamed:@"facts.png"];
+        //self.tabBarItem.title = @"Facts";
+        //self.tabBarItem.image = [UIImage imageNamed:@"facts.png"];
         
         // Create a UIImage from a file
         // This will use Hypno@2x.png on retina display devices

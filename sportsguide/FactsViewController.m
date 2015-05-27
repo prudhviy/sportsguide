@@ -10,18 +10,50 @@
 
 @interface FactsViewController ()
 
+@property (nonatomic, strong) NSMutableDictionary *facts;
+@property (nonatomic, strong) NSArray *factSectionTitles;
+
 @end
 
 @implementation FactsViewController
 
+- (instancetype)init {
+    // Call the superclass's designated initializer
+    self = [super initWithStyle:UITableViewStylePlain];
+    
+    if (self) {
+        self.title = @"Facts";
+        self.tabBarItem.image = [UIImage imageNamed:@"facts.png"];
+    }
+    return self;
+}
+
+- (instancetype)initWithStyle:(UITableViewStyle)style{
+    return [self init];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self.tableView registerClass:[UITableViewCell class]
+           forCellReuseIdentifier:@"UITableViewCell"];
     // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
+    self.clearsSelectionOnViewWillAppear = NO;
+    self.navigationItem.title = @"Facts";
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    self.facts = [[NSMutableDictionary alloc] init];
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *factsPath = [bundle pathForResource:@"facts" ofType:@"plist"];
+    NSArray *factsArray = [NSArray arrayWithContentsOfFile:factsPath];
+    
+    for (int i = 0; i < [factsArray count]; i++) {
+        NSString *title = [factsArray[i] objectForKey:@"factTitle"];
+        NSArray *descArray = [factsArray[i] objectForKey:@"arraypart"];
+        self.facts[title] = descArray;
+    }
+    
+    self.factSectionTitles = [[self.facts allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,28 +61,49 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section
+{
+    // Background color
+    view.tintColor = [UIColor colorWithRed:(230/255.0) green:(230/255.0) blue:(250/255.0) alpha:1];
+    
+    // Text Color
+    UITableViewHeaderFooterView *header = (UITableViewHeaderFooterView *)view;
+    [header.textLabel setTextColor:[UIColor blackColor]];
+    
+    // Another way to set the background color
+    // Note: does not preserve gradient effect of original header
+    // header.contentView.backgroundColor = [UIColor blackColor];
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 2;
+    return [self.factSectionTitles count];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return [self.factSectionTitles objectAtIndex:section];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    NSString *sectionTitle = [self.factSectionTitles objectAtIndex:section];
+    NSArray *sectionFacts = [self.facts objectForKey:sectionTitle];
+    return [sectionFacts count];
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell" forIndexPath:indexPath];
     
     // Configure the cell...
+    NSString *sectionTitle = [self.factSectionTitles objectAtIndex:indexPath.section];
+    NSArray *sectionFacts = [self.facts objectForKey:sectionTitle];
+    NSString *fact = [sectionFacts objectAtIndex:indexPath.row];
+    cell.textLabel.text = fact;
     
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.

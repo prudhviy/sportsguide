@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "TermViewController.h"
 #import "TermDetailViewController.h"
+#import "FactsViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,13 +21,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     TermViewController *termsVC = [[TermViewController alloc] init];
-    TermDetailViewController *detailVC = [[TermDetailViewController alloc] init];
+    FactsViewController *factsVC = [[FactsViewController alloc] init];
     
-    UINavigationController *navController = [[UINavigationController alloc]
+    UINavigationController *termsNavController = [[UINavigationController alloc]
                                              initWithRootViewController:termsVC];
     
+    UINavigationController *factsNavController = [[UINavigationController alloc]
+                                             initWithRootViewController:factsVC];
+    
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[navController, detailVC];
+    tabBarController.viewControllers = @[termsNavController, factsNavController];
     
     self.window.rootViewController = tabBarController;
     
