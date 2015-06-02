@@ -7,6 +7,9 @@
 //
 
 #import "FactsViewController.h"
+#import "GAITracker.h"
+#import "GAI.h"
+#import "GAIDictionaryBuilder.h"
 
 @interface FactsViewController ()
 
@@ -54,6 +57,13 @@
     }
     
     self.factSectionTitles = [[self.facts allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"     // Event category (required)
+                                                          action:@"facts_loaded"  // Event action (required)
+                                                           label:nil          // Event label
+                                                           value:nil] build]];    // Event value
 }
 
 - (void)didReceiveMemoryWarning {

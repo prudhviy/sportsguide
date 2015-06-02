@@ -10,6 +10,9 @@
 #import "TermStore.h"
 #import "Term.h"
 #import "TermDetailViewController.h"
+#import "GAITracker.h"
+#import "GAI.h"
+#import "GAIDictionaryBuilder.h"
 
 @interface TermViewController () <UIScrollViewDelegate, UISearchResultsUpdating, UISearchBarDelegate>
 
@@ -60,6 +63,13 @@
     self.searchController.searchBar.frame = CGRectMake(self.searchController.searchBar.frame.origin.x, self.searchController.searchBar.frame.origin.y, self.searchController.searchBar.frame.size.width, 44.0);
     self.searchController.dimsBackgroundDuringPresentation = FALSE;
     self.tableView.tableHeaderView = self.searchController.searchBar;
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"     // Event category (required)
+                                                          action:@"terms_view_loaded"  // Event action (required)
+                                                           label:nil          // Event label
+                                                        value:nil] build]];    // Event value
 }
 
 - (void)didReceiveMemoryWarning {
@@ -106,6 +116,14 @@
         Term *term = terms[indexPath.row];
         cell.textLabel.text = [term name];
     }
+    
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"     // Event category (required)
+                                                          action:@"terms_loaded"  // Event action (required)
+                                                           label:cell.textLabel.text          // Event label
+                                                           value:nil] build]];    // Event value
     
     [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
     return cell;

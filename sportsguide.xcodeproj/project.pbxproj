@@ -11,6 +11,11 @@
 		A40D30DE1B096F6B00B75020 /* SoccerballItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A40D30DC1B096F6B00B75020 /* SoccerballItem.plist */; };
 		A41C87A81B0FFE2A004B3E75 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C87A71B0FFE2A004B3E75 /* YTPlayerView.m */; };
 		A41C87AA1B0FFE3B004B3E75 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = A41C87A91B0FFE3B004B3E75 /* Assets */; };
+		A41D1DD31B1D246D0010FA5A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DD21B1D246D0010FA5A /* CoreData.framework */; };
+		A41D1DD51B1D24940010FA5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DD41B1D24940010FA5A /* SystemConfiguration.framework */; };
+		A41D1DD71B1D24A80010FA5A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DD61B1D24A80010FA5A /* libz.dylib */; };
+		A41D1DD91B1D24BB0010FA5A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */; };
+		A41D1DDB1B1D25110010FA5A /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */; };
 		A45EC8781B152DCE0071B6AB /* FactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45EC8761B152DCE0071B6AB /* FactsViewController.m */; };
 		A45EC8791B152DCE0071B6AB /* FactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45EC8771B152DCE0071B6AB /* FactsViewController.xib */; };
 		A4F2B9CF1B05BAAF0007497A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9CE1B05BAAF0007497A /* main.m */; };
@@ -44,6 +49,20 @@
 		A41C87A61B0FFE2A004B3E75 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		A41C87A71B0FFE2A004B3E75 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		A41C87A91B0FFE3B004B3E75 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		A41D1DC91B1D239A0010FA5A /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		A41D1DCA1B1D239A0010FA5A /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		A41D1DCB1B1D239A0010FA5A /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		A41D1DCC1B1D239A0010FA5A /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		A41D1DCD1B1D239A0010FA5A /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		A41D1DCE1B1D239A0010FA5A /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		A41D1DCF1B1D239A0010FA5A /* GAILogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		A41D1DD01B1D239A0010FA5A /* GAITrackedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		A41D1DD11B1D239A0010FA5A /* GAITracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		A41D1DD21B1D246D0010FA5A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A41D1DD41B1D24940010FA5A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A41D1DD61B1D24A80010FA5A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../david_new/GoogleAnalyticsServicesiOS_3.12/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		A45EC8751B152DCE0071B6AB /* FactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsViewController.h; sourceTree = "<group>"; };
 		A45EC8761B152DCE0071B6AB /* FactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsViewController.m; sourceTree = "<group>"; };
 		A45EC8771B152DCE0071B6AB /* FactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsViewController.xib; sourceTree = "<group>"; };
@@ -77,6 +96,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41D1DDB1B1D25110010FA5A /* libGoogleAnalyticsServices.a in Frameworks */,
+				A41D1DD91B1D24BB0010FA5A /* libsqlite3.dylib in Frameworks */,
+				A41D1DD71B1D24A80010FA5A /* libz.dylib in Frameworks */,
+				A41D1DD51B1D24940010FA5A /* SystemConfiguration.framework in Frameworks */,
+				A41D1DD31B1D246D0010FA5A /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +117,11 @@
 		A4F2B9C01B05BAAF0007497A = {
 			isa = PBXGroup;
 			children = (
+				A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */,
+				A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */,
+				A41D1DD61B1D24A80010FA5A /* libz.dylib */,
+				A41D1DD41B1D24940010FA5A /* SystemConfiguration.framework */,
+				A41D1DD21B1D246D0010FA5A /* CoreData.framework */,
 				A4F2B9CB1B05BAAF0007497A /* sportsguide */,
 				A4F2B9E51B05BAAF0007497A /* sportsguideTests */,
 				A4F2B9CA1B05BAAF0007497A /* Products */,
@@ -133,6 +162,15 @@
 				A45EC8761B152DCE0071B6AB /* FactsViewController.m */,
 				A45EC8771B152DCE0071B6AB /* FactsViewController.xib */,
 				A4F2B9D91B05BAAF0007497A /* Images.xcassets */,
+				A41D1DC91B1D239A0010FA5A /* GAI.h */,
+				A41D1DCA1B1D239A0010FA5A /* GAIDictionaryBuilder.h */,
+				A41D1DCB1B1D239A0010FA5A /* GAIEcommerceProduct.h */,
+				A41D1DCC1B1D239A0010FA5A /* GAIEcommerceProductAction.h */,
+				A41D1DCD1B1D239A0010FA5A /* GAIEcommercePromotion.h */,
+				A41D1DCE1B1D239A0010FA5A /* GAIFields.h */,
+				A41D1DCF1B1D239A0010FA5A /* GAILogger.h */,
+				A41D1DD01B1D239A0010FA5A /* GAITrackedViewController.h */,
+				A41D1DD11B1D239A0010FA5A /* GAITracker.h */,
 				A41C87A91B0FFE3B004B3E75 /* Assets */,
 				A4F2B9CC1B05BAAF0007497A /* Supporting Files */,
 			);
@@ -216,6 +254,7 @@
 				TargetAttributes = {
 					A4F2B9C81B05BAAF0007497A = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7B6QU828YA;
 					};
 					A4F2B9E11B05BAAF0007497A = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -409,9 +448,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sportsguide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/prudhvi/Documents/david_new/GoogleAnalyticsServicesiOS_3.12,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -420,9 +467,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sportsguide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/prudhvi/Documents/david_new/GoogleAnalyticsServicesiOS_3.12,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
