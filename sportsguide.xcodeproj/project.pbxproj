@@ -68,7 +68,7 @@
 		A45EC8751B152DCE0071B6AB /* FactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsViewController.h; sourceTree = "<group>"; };
 		A45EC8761B152DCE0071B6AB /* FactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsViewController.m; sourceTree = "<group>"; };
 		A45EC8771B152DCE0071B6AB /* FactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsViewController.xib; sourceTree = "<group>"; };
-		A4F2B9C91B05BAAF0007497A /* sportsguide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sportsguide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F2B9C91B05BAAF0007497A /* GITS Soccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GITS Soccer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F2B9CD1B05BAAF0007497A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F2B9CE1B05BAAF0007497A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4F2B9D01B05BAAF0007497A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		A4F2B9CA1B05BAAF0007497A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4F2B9C91B05BAAF0007497A /* sportsguide.app */,
+				A4F2B9C91B05BAAF0007497A /* GITS Soccer.app */,
 				A4F2B9E21B05BAAF0007497A /* sportsguideTests.xctest */,
 			);
 			name = Products;
@@ -226,7 +226,7 @@
 			);
 			name = sportsguide;
 			productName = sportsguide;
-			productReference = A4F2B9C91B05BAAF0007497A /* sportsguide.app */;
+			productReference = A4F2B9C91B05BAAF0007497A /* GITS Soccer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A4F2B9E11B05BAAF0007497A /* sportsguideTests */ = {
@@ -452,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sportsguide/Info.plist;
@@ -461,7 +462,7 @@
 					"$(inherited)",
 					/Users/prudhvi/Documents/david_new/GoogleAnalyticsServicesiOS_3.12,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "GITS Soccer";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -471,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = sportsguide/Info.plist;
@@ -480,7 +482,7 @@
 					"$(inherited)",
 					/Users/prudhvi/Documents/david_new/GoogleAnalyticsServicesiOS_3.12,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "GITS Soccer";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
