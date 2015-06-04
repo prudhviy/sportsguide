@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 gits. All rights reserved.
 //
 
+#import <iAd/iAd.h>
 #import "TermViewController.h"
 #import "TermStore.h"
 #import "Term.h"
@@ -18,7 +19,7 @@
 
 @property (nonatomic, strong) UISearchController *searchController;
 @property (nonatomic, strong) NSMutableArray *searchResults; // Filtered search results
-
+@property (nonatomic, strong) ADBannerView *adView;
 @end
 
 @implementation TermViewController
@@ -70,7 +71,25 @@
                                                           action:@"terms_view_loaded"  // Event action (required)
                                                            label:nil          // Event label
                                                         value:nil] build]];    // Event value
+    self.canDisplayBannerAds = YES;
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    self.adView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 50, 320, 50)];
+    self.tableView.tableFooterView = self.adView;
+}
+
+/*
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    //CGRect iAdFrame = self.adView.frame;
+    //CGFloat newOriginY = self.tableView.contentOffset.y + self.tableView.frame.size.height - iAdFrame.size.height;
+    //CGRect newIAdFrame = CGRectMake(iAdFrame.origin.x, newOriginY, iAdFrame.size.width, iAdFrame.size.height);
+    //self.adView.frame = newIAdFrame;
+    NSLog(@"Did Scroll");
+}
+*/
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

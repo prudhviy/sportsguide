@@ -4,209 +4,279 @@
 <array>
 	<dict>
 		<key>itemDetail</key>
-		<string>When a ball is passd from the wings into the penalty area of the field; also known as a across</string>
+		<string>A referee can decide not to call an infraction if allowing play to continue creates an advantage for the fouled team</string>
 		<key>itemId</key>
 		<integer>1</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>CENTER</string>
+		<string>Advantage Rule</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Striker who leads the attack.</string>
+		<string>Nickname or abbreviation of the name given to the defenders who line up in the rear, in front of the goalkeeper; the name refers to the left and right fullbacks as well as the centerbacks, also known as sweepers</string>
 		<key>itemId</key>
 		<integer>2</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>CENTER FORWARD</string>
+		<string>Backs</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Creative force in the midfield; generally where plays are started.</string>
+		<string>A kick with exceptional curve</string>
 		<key>itemId</key>
 		<integer>3</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>CENTER HALF MIDDFIELDERS</string>
+		<string>Banana Kick</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A high, arching shot that is lofted over the heads of defenders or the goalkeeper.</string>
+		<string>A strike where the player's body is horizontal in mid-air and the ball is struck over the player's head; this type of kick was popularized by Brazilian great Pelé</string>
 		<key>itemId</key>
 		<integer>4</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>CHIP</string>
+		<string>Bicycle or Scissors Kick</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A defensive kick that attempts to get the ball out of a scoring area, particularly the penalty area.</string>
+		<string>A term referring to a player's name being written down by a referee for either a yellow or red card infraction</string>
 		<key>itemId</key>
 		<integer>5</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>CLEAR</string>
+		<string>Booked</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A free kick taken by an attacking player whenever a defender last touches the ball before it completely crosses the goal line.</string>
+		<string>Soccer cleats</string>
 		<key>itemId</key>
 		<integer>6</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>CORNER KICK</string>
+		<string>Boots</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>An action on the field ruled by the referee that will likely cause an injuery; will at minimum draw a yellow card but could draw a red card for the offending player.</string>
+		<string>Represents an appearance in a national team</string>
 		<key>itemId</key>
 		<integer>7</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>DANGEROUSE PLAY</string>
+		<string>Cap</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Awarded as the result of a personal foul, such as kicking, trippling, holding or pushing; the kick is taken from the point of the infraction and the designated player taking the kick may score directly without another player having to touch the ball.</string>
+		<string>When a ball is passed from the wings into the penalty area of the field; also known as a cross</string>
 		<key>itemId</key>
 		<integer>8</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>DIRECT FREE KICK</string>
+		<string>Center</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The referee drops the ball onto the ground between two opposing players; it signals the resumption of play after the referee has stopped it for an infraction other than a foul. (Example: play will be halted due to an injury to a player.)</string>
+		<string>Striker who leads the attack</string>
 		<key>itemId</key>
 		<integer>9</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>DRIPPED BALL</string>
+		<string>Center Forward</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The sides of the field also known as the wing.</string>
+		<string>Creative force in the midfield; generally where plays are started</string>
 		<key>itemId</key>
 		<integer>10</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>FLANK</string>
+		<string>Center Half Midfielders</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Essentially an exhibition match with no impact on international standings, such as the FIFA rankings; often used to benefit up-and-coming tournaments or qualitying.</string>
+		<string>A high, arching shot that is lofted over the heads of defenders or the goalkeeper</string>
 		<key>itemId</key>
 		<integer>11</integer>
 		<key>itemPersonId</key>
-		<integer>11</integer>
+		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>FRIENDLY</string>
+		<string>Chip</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The manner in which points are scored in soccer; to score, the ball must completely cross over the goal line and into the goal; a goal counts as one point (the exception to this applies in certain indoor soccer leagues).</string>
+		<string>A defensive kick that attempts to get the ball out of a scoring area, particularly the penalty area</string>
 		<key>itemId</key>
 		<integer>12</integer>
 		<key>itemPersonId</key>
-		<integer>12</integer>
+		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>GOAL</string>
+		<string>Clear</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>A free kick taken by an attacking player whenever a defender last touches the ball before it completely crosses the goal line</string>
+		<key>itemId</key>
+		<integer>13</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Corner Kick</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>An action on the field ruled by the referee that will likely cause an injuery; will at minimum draw a yellow card but could draw a red card for the offending player</string>
+		<key>itemId</key>
+		<integer>14</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Dangerous Play</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Awarded as the result of a personal foul, such as kicking, trippling, holding or pushing; the kick is taken from the point of the infraction and the designated player taking the kick may score directly without another player having to touch the ball</string>
+		<key>itemId</key>
+		<integer>15</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Direct Free Kick</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>The referee drops the ball onto the ground between two opposing players; it signals the resumption of play after the referee has stopped it for an infraction other than a foul. (Example: play will be halted due to an injury to a player)</string>
+		<key>itemId</key>
+		<integer>16</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Dropped Ball</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>The sides of the field also known as the wing</string>
+		<key>itemId</key>
+		<integer>17</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Flank</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Essentially an exhibition match with no impact on international standings, such as the FIFA rankings; often used to benefit up-and-coming tournaments or qualitying</string>
+		<key>itemId</key>
+		<integer>18</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Friendly</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>The manner in which points are scored in soccer; to score, the ball must completely cross over the goal line and into the goal; a goal counts as one point (the exception to this applies in certain indoor soccer leagues)</string>
+		<key>itemId</key>
+		<integer>19</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Goal</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
 		<string>Standing in the center of the goal lines; each goal consists of two wooden posts, 24 feet apart, and a crossbar, 8 feet above the ground.</string>
 		<key>itemId</key>
-		<integer>13</integer>
-		<key>itemPersonId</key>
-		<integer>13</integer>
-		<key>itemTerm</key>
-		<string>GOALS</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>A 60-foot wide by 18-foot deep rectangular area in front of each goal.</string>
-		<key>itemId</key>
-		<integer>14</integer>
-		<key>itemPersonId</key>
-		<integer>14</integer>
-		<key>itemTerm</key>
-		<string>GOAL AREA</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Defends the goal; the only player who can handle the ball within the penalty area with his hands.</string>
-		<key>itemId</key>
-		<integer>15</integer>
-		<key>itemPersonId</key>
-		<integer>15</integer>
-		<key>itemTerm</key>
-		<string>GOALKEEPER</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>A free kick taken either by the goalkeeper or member of the defending team when the attacking team puts the ball over the goal line.</string>
-		<key>itemId</key>
-		<integer>16</integer>
-		<key>itemPersonId</key>
-		<integer>16</integer>
-		<key>itemTerm</key>
-		<string>GOAL KICK</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Lines which runs from corner flag to corner flag across each end of the field of play and which the goal is situated; represents the end of the playing area at the far end of each side of the field.</string>
-		<key>itemId</key>
-		<integer>17</integer>
-		<key>itemPersonId</key>
-		<integer>17</integer>
-		<key>itemTerm</key>
-		<string>GOAL LINES</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Where a game ends with the coring of a goal in overtime rather than by the expiration of an extra time period; used in some interational soccer tournaments, particularly in Europe.</string>
-		<key>itemId</key>
-		<integer>18</integer>
-		<key>itemPersonId</key>
-		<integer>18</integer>
-		<key>itemTerm</key>
-		<string>GOLDEN GOAL</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>One of two 45 minute peroids in a 90 minute match.</string>
-		<key>itemId</key>
-		<integer>19</integer>
-		<key>itemPersonId</key>
-		<integer>19</integer>
-		<key>itemTerm</key>
-		<string>HALF</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Midfielders responsible for marking assigments.</string>
-		<key>itemId</key>
 		<integer>20</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>HALFBACKS</string>
+		<string>Goals</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Infraction called when a player other than a goalkeeper intentionally plays a ball with his hand; if a defender handles within the penalty area, a penalty shot is awarded; if the goalkeeper handles the ball outside the penalty area, a direction free kick is awarded.</string>
+		<string>A 60-foot wide by 18-foot deep rectangular area in front of each goal</string>
 		<key>itemId</key>
 		<integer>21</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Goal Area</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Defends the goal; the only player who can handle the ball within the penalty area with his hands</string>
+		<key>itemId</key>
+		<integer>22</integer>
+		<key>itemPersonId</key>
+		<integer>15</integer>
+		<key>itemTerm</key>
+		<string>Goal Keeper</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>A free kick taken either by the goalkeeper or member of the defending team when the attacking team puts the ball over the goal line</string>
+		<key>itemId</key>
+		<integer>23</integer>
+		<key>itemPersonId</key>
+		<integer>16</integer>
+		<key>itemTerm</key>
+		<string>Goal Kick</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Lines which runs from corner flag to corner flag across each end of the field of play and which the goal is situated; represents the end of the playing area at the far end of each side of the field</string>
+		<key>itemId</key>
+		<integer>24</integer>
+		<key>itemPersonId</key>
+		<integer>17</integer>
+		<key>itemTerm</key>
+		<string>Goal Lines</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Where a game ends with the scoring of a goal in overtime rather than by the expiration of an extra time period; used in some interational soccer tournaments, particularly in Europe</string>
+		<key>itemId</key>
+		<integer>25</integer>
+		<key>itemPersonId</key>
+		<integer>18</integer>
+		<key>itemTerm</key>
+		<string>Golden Goal</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>One of two 45 minute peroids in a 90 minute match</string>
+		<key>itemId</key>
+		<integer>26</integer>
+		<key>itemPersonId</key>
+		<integer>19</integer>
+		<key>itemTerm</key>
+		<string>Half</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Midfielders responsible for marking assigments</string>
+		<key>itemId</key>
+		<integer>27</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Halfbacks</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Infraction called when a player other than a goalkeeper intentionally plays a ball with his hand; if a defender handles within the penalty area, a penalty shot is awarded; if the goalkeeper handles the ball outside the penalty area, a direction free kick is awarded</string>
+		<key>itemId</key>
+		<integer>28</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
@@ -214,353 +284,333 @@
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A term referring to three-goal performance in a single match by an individual player.</string>
-		<key>itemId</key>
-		<integer>22</integer>
-		<key>itemPersonId</key>
-		<integer>10</integer>
-		<key>itemTerm</key>
-		<string>HAT-TRICK</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>When a player uses his head to shoot, pass or control the ball.</string>
-		<key>itemId</key>
-		<integer>23</integer>
-		<key>itemPersonId</key>
-		<integer>10</integer>
-		<key>itemTerm</key>
-		<string>HEADER</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Awarded for less serious infractions to the team fouled; for a goal to be scored on an indirect free kick, a player other than the kicker must touch the ball before it can be scored; the kick is awarded from the point of infraction.</string>
-		<key>itemId</key>
-		<integer>24</integer>
-		<key>itemPersonId</key>
-		<integer>10</integer>
-		<key>itemTerm</key>
-		<string>INDIRECT FREE KICK</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Time added to the end of either half by the referee to compensate for time lost due to injuries time is solely the responsibility of the referee.</string>
-		<key>itemId</key>
-		<integer>25</integer>
-		<key>itemPersonId</key>
-		<integer>10</integer>
-		<key>itemTerm</key>
-		<string>INJURY TIME</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Player selected to play for his country&apos;s national team.</string>
-		<key>itemId</key>
-		<integer>26</integer>
-		<key>itemPersonId</key>
-		<integer>10</integer>
-		<key>itemTerm</key>
-		<string>INTERNATIONAL PLAYER</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>Two officials who are stationed outside of the touchline to indicate when a ball is out of play or offsides.</string>
-		<key>itemId</key>
-		<integer>27</integer>
-		<key>itemPersonId</key>
-		<integer>10</integer>
-		<key>itemTerm</key>
-		<string>LINESMAN</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>The close defending of an opposing player.</string>
-		<key>itemId</key>
-		<integer>28</integer>
-		<key>itemPersonId</key>
-		<integer>10</integer>
-		<key>itemTerm</key>
-		<string>MARK</string>
-	</dict>
-	<dict>
-		<key>itemDetail</key>
-		<string>A term, British in origin, used to describe a game; matches last 90 minutes, with a 12-minute rest between halves.</string>
+		<string>A term referring to three-goal performance in a single match by an individual player</string>
 		<key>itemId</key>
 		<integer>29</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>MATCH</string>
+		<string>Hat-Trick</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Players who line up in front of defenders and behind strikers; creative members of the team whose role is to link the forwards and defense.</string>
+		<string>When a player uses his head to shoot, pass or control the ball</string>
 		<key>itemId</key>
 		<integer>30</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>MIDFIELDER</string>
+		<string>Header</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>When a attacker moves forward by passing a ball through an opponent&apos;s legs.</string>
+		<string>Awarded for less serious infractions to the team fouled; for a goal to be scored on an indirect free kick, a player other than the kicker must touch the ball before it can be scored; the kick is awarded from the point of infraction</string>
 		<key>itemId</key>
 		<integer>31</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>NUTMED</string>
+		<string>Indirect Free Kick</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A ball the a meets the specifications of the international sanctioning body; between 27 and 28 inches in circumference and 14-to-16 ounces in weight.</string>
+		<string>Time added to the end of either half by the referee to compensate for time lost due to injuries time is solely the responsibility of the referee</string>
 		<key>itemId</key>
 		<integer>32</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>OFFICIAL FIFA BALL</string>
+		<string>Injury Time</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>An infraction which occurs when an attacker sends a pass to teammate without two defenders; which can include a goalkeeper, between the teammate and the goal.</string>
+		<string>Player selected to play for his country&apos;s national team</string>
 		<key>itemId</key>
 		<integer>33</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>OFFSIDE</string>
+		<string>International Player</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A defensive scheme which attempts to push defensive palyers forward in the hopes of putting an attacking player offside.</string>
+		<string>Two officials who are stationed outside of the touchline to indicate when a ball is out of play or offsides</string>
 		<key>itemId</key>
 		<integer>34</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>OFFSIDE TRAP</string>
+		<string>Linesman</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>When an attacker strikes a shot off a pass or rebound without stopping the ball to gain control.</string>
+		<string>The close defending of an opposing player</string>
 		<key>itemId</key>
 		<integer>35</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>ONE-TIME</string>
+		<string>Mark</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A 60-foot wide by 18-foot deep rectangular area in front of each goal; the area in which the goalkeeper can use his hands.</string>
+		<string>A term, British in origin, used to describe a game; matches last 90 minutes, with a 12-minute rest between halves</string>
 		<key>itemId</key>
 		<integer>36</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>PENALTY AREA</string>
+		<string>Match</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>AWarded for any personal fouls or for intentionally handling of the ball by a dending player within the penalty area; a penalty shot is taken from the designated spot, 12 yeards from the goal line in the center of the penalty area, with only the goalkeeper defending the shot.</string>
+		<string>Players who line up in front of defenders and behind strikers; creative members of the team whose role is to link the forwards and defense</string>
 		<key>itemId</key>
 		<integer>37</integer>
 		<key>itemPersonId</key>
-		<integer>1</integer>
+		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>PENALTY KICK</string>
+		<string>Midfielder</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A British term used to define the field of play; the field of play is rectangular, with dimensions not more than 130 yards nor less than 100 yards in length, and not more than 100 yards and not less than 50 yards in width; for international matches, such as the World Cup, the length shall not be more than 120 yards nor less than 110 yards and the width shall not be more than 80 yards nor less than 70 yards.</string>
+		<string>When a attacker moves forward by passing a ball through an opponent's legs</string>
 		<key>itemId</key>
 		<integer>38</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>PITCH</string>
+		<string>Nutmeg</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The card shown to a player being ejected from a match by the referee; players ejected cannot be substituted for, and often a red card offense carries a penalty of additional matches missed.</string>
+		<string>A ball the a meets the specifications of the international sanctioning body; between 27 and 28 inches in circumference and 14-to-16 ounces in weight</string>
 		<key>itemId</key>
 		<integer>39</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>RED CARD</string>
+		<string>Official FIFA Ball</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The only on-field official charged with enforcing the rules of the game; acts as timekeeper as well; has the authority to expel a player from a game for repeated fouling or misconduct behavior.</string>
+		<string>An infraction which occurs when an attacker sends a pass to teammate without two defenders; which can include a goalkeeper, between the teammate and the goal</string>
 		<key>itemId</key>
 		<integer>40</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>REFEREE</string>
+		<string>Offside</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The goalkeeper stopping a scoring opportunity by either catching the vall or knocking it away from the goal.</string>
+		<string>A defensive scheme which attempts to push defensive palyers forward in the hopes of putting an attacking player offside</string>
 		<key>itemId</key>
 		<integer>41</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>SAVE</string>
+		<string>Offside Trap</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>When a player places his body between an opponent and the ball; often preceeds an offensive maneuver during an attack.</string>
+		<string>When an attacker strikes a shot off a pass or rebound without stopping the ball to gain control</string>
 		<key>itemId</key>
 		<integer>42</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>SHIELDING</string>
+		<string>One-Time</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A tie-breaking procedure; there are two basic methods: a) in Major League Soccer and other North American leagues, the situation is one-on-one where the attacker taks possession of the ball from 35 yards away, and has to dribble and score against the opposing goalkeeper; b) in international matches, shootouts are dtermined with penalty kicks; occurs after regular time in Major League Soccer; occurs after extra time in international matches.</string>
+		<string>A 60-foot wide by 18-foot deep rectangular area in front of each goal; the area in which the goalkeeper can use his hands</string>
 		<key>itemId</key>
 		<integer>43</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>SHOOTOUT</string>
+		<string>Penalty Area</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Sliding into the ball and knocking it away from an opponent; if the player executing a slide tackle hits the attacker&apos;s legs before striking the ball, it results in a penalty; if poorly executed, a slide tackle will result in a penalty with either a red or yellow card being issued (this is also referred to as a professional foul).</string>
+		<string>AWarded for any personal fouls or for intentionally handling of the ball by a dending player within the penalty area; a penalty shot is taken from the designated spot, 12 yeards from the goal line in the center of the penalty area, with only the goalkeeper defending the shot</string>
 		<key>itemId</key>
 		<integer>44</integer>
 		<key>itemPersonId</key>
-		<integer>10</integer>
+		<integer>1</integer>
 		<key>itemTerm</key>
-		<string>SLIDE TACKLE</string>
+		<string>Penalty Kick</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Terms used for forwards or attackers; target player to whom the rest of the team will look during its attack; chosen for their scoring abilities.</string>
+		<string>A British term used to define the field of play; the field of play is rectangular, with dimensions not more than 130 yards nor less than 100 yards in length, and not more than 100 yards and not less than 50 yards in width; for international matches, such as the World Cup, the length shall not be more than 120 yards nor less than 110 yards and the width shall not be more than 80 yards nor less than 70 yards</string>
 		<key>itemId</key>
 		<integer>45</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>STRIKERS</string>
+		<string>Pitch</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A desperation shot from long out that remarkably results in a goal.</string>
+		<string>The card shown to a player being ejected from a match by the referee; players ejected cannot be substituted for, and often a red card offense carries a penalty of additional matches missed</string>
 		<key>itemId</key>
 		<integer>46</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>SUNDAY SHOT</string>
+		<string>Red Card</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Defender who plays behind the back four with no marking assigments; the link who supports both defensive and attacking play; works in unison with his goalkeeper.</string>
+		<string>The only on-field official charged with enforcing the rules of the game; acts as timekeeper as well; has the authority to expel a player from a game for repeated fouling or misconduct behavior</string>
 		<key>itemId</key>
 		<integer>47</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>SWEEPER</string>
+		<string>Referee</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The method of restarting play when the vall has crossed the touchlines; a throw-in is awarded to the opposing side of the team which knocked the ball out of play.</string>
+		<string>The goalkeeper stopping a scoring opportunity by either catching the vall or knocking it away from the goal</string>
 		<key>itemId</key>
 		<integer>48</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>THROW-IN</string>
+		<string>Save</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The boundary lines running the full length of the field on each side of the playing area.</string>
+		<string>When a player places his body between an opponent and the ball; often preceeds an offensive maneuver during an attack</string>
 		<key>itemId</key>
 		<integer>49</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>TOUCH LINES</string>
+		<string>Shielding</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The use of any legal part of the body to gain control of an airborn ball.</string>
+		<string>A tie-breaking procedure; there are two basic methods: a) in Major League Soccer and other North American leagues, the situation is one-on-one where the attacker taks possession of the ball from 35 yards away, and has to dribble and score against the opposing goalkeeper; b) in international matches, shootouts are determined with penalty kicks; occurs after regular time in Major League Soccer; occurs after extra time in international matches</string>
 		<key>itemId</key>
 		<integer>50</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>TRAP</string>
+		<string>Shootout</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A shot where the ball is struck while still airborne.</string>
+		<string>Sliding into the ball and knocking it away from an opponent; if the player executing a slide tackle hits the attacker's legs before striking the ball, it results in a penalty; if poorly executed, a slide tackle will result in a penalty with either a red or yellow card being issued (this is also referred to as a professional foul)</string>
 		<key>itemId</key>
 		<integer>51</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>VOLLEY</string>
+		<string>Slide Tackle</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>The line of players used to prevent a direct kick from scoring; lined up 10 yards from where the direct kick is taken.</string>
+		<string>Terms used for forwards or attackers; target player to whom the rest of the team will look during its attack; chosen for their scoring abilities</string>
 		<key>itemId</key>
 		<integer>52</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>WALL</string>
+		<string>Strikers</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>Player on left or right side of the attack whose role is close to the touchline; supports forwards and midfielders.</string>
+		<string>A desperation shot from long out that remarkably results in a goal</string>
 		<key>itemId</key>
 		<integer>53</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>WINGER</string>
+		<string>Sunday Shot</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>A caution card showed to a player by the referee after a dangerous play foul; a second yellow card in the same match earns the offending player a red card and automatic ejection; some leagues and tournaments have rules regarding the receipt of yellow cards in successive matches, which often result in a one-game ban.</string>
+		<string>Defender who plays behind the back four with no marking assigments; the link who supports both defensive and attacking play; works in unison with his goalkeeper</string>
 		<key>itemId</key>
 		<integer>54</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>YELLOW CARD</string>
+		<string>Sweeper</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>term definition.</string>
+		<string>The method of restarting play when the ball has crossed the touchlines; a throw-in is awarded to the opposing side of the team which knocked the ball out of play</string>
 		<key>itemId</key>
-		<integer>54</integer>
+		<integer>55</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>term</string>
+		<string>Throw-In</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
-		<string>term definition2.</string>
+		<string>The boundary lines running the full length of the field on each side of the playing area</string>
 		<key>itemId</key>
-		<integer>54</integer>
+		<integer>56</integer>
 		<key>itemPersonId</key>
 		<integer>10</integer>
 		<key>itemTerm</key>
-		<string>term2</string>
+		<string>Touch Lines</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>The use of any legal part of the body to gain control of an airborn ball</string>
+		<key>itemId</key>
+		<integer>57</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Trap</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>A shot where the ball is struck while still airborne</string>
+		<key>itemId</key>
+		<integer>58</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Volley</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>The line of players used to prevent a direct kick from scoring; lined up 10 yards from where the direct kick is taken</string>
+		<key>itemId</key>
+		<integer>59</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Wall</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>Player on left or right side of the attack whose role is close to the touchline; supports forwards and midfielders</string>
+		<key>itemId</key>
+		<integer>60</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Winger</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
+		<string>A caution card showed to a player by the referee after a dangerous play foul; a second yellow card in the same match earns the offending player a red card and automatic ejection; some leagues and tournaments have rules regarding the receipt of yellow cards in successive matches, which often result in a one-game ban</string>
+		<key>itemId</key>
+		<integer>61</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Yellow Card</string>
 	</dict>
 </array>
 </plist>

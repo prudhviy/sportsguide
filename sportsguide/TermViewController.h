@@ -10,4 +10,6 @@
 
 @interface TermViewController : UITableViewController
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
+
 @end

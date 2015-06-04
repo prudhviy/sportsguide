@@ -16,6 +16,7 @@
 		A41D1DD71B1D24A80010FA5A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DD61B1D24A80010FA5A /* libz.dylib */; };
 		A41D1DD91B1D24BB0010FA5A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */; };
 		A41D1DDB1B1D25110010FA5A /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */; };
+		A41D1DDD1B1FCC1E0010FA5A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DDC1B1FCC1E0010FA5A /* iAd.framework */; };
 		A45EC8781B152DCE0071B6AB /* FactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45EC8761B152DCE0071B6AB /* FactsViewController.m */; };
 		A45EC8791B152DCE0071B6AB /* FactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45EC8771B152DCE0071B6AB /* FactsViewController.xib */; };
 		A4F2B9CF1B05BAAF0007497A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9CE1B05BAAF0007497A /* main.m */; };
@@ -63,6 +64,7 @@
 		A41D1DD61B1D24A80010FA5A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../david_new/GoogleAnalyticsServicesiOS_3.12/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		A41D1DDC1B1FCC1E0010FA5A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A45EC8751B152DCE0071B6AB /* FactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsViewController.h; sourceTree = "<group>"; };
 		A45EC8761B152DCE0071B6AB /* FactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsViewController.m; sourceTree = "<group>"; };
 		A45EC8771B152DCE0071B6AB /* FactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsViewController.xib; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41D1DDD1B1FCC1E0010FA5A /* iAd.framework in Frameworks */,
 				A41D1DDB1B1D25110010FA5A /* libGoogleAnalyticsServices.a in Frameworks */,
 				A41D1DD91B1D24BB0010FA5A /* libsqlite3.dylib in Frameworks */,
 				A41D1DD71B1D24A80010FA5A /* libz.dylib in Frameworks */,
@@ -117,6 +120,7 @@
 		A4F2B9C01B05BAAF0007497A = {
 			isa = PBXGroup;
 			children = (
+				A41D1DDC1B1FCC1E0010FA5A /* iAd.framework */,
 				A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */,
 				A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */,
 				A41D1DD61B1D24A80010FA5A /* libz.dylib */,
