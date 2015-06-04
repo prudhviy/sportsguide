@@ -6,15 +6,17 @@
 //  Copyright (c) 2015 gits. All rights reserved.
 //
 
-#import "FactsViewController.h"
+#import <iAd/iAd.h>
 #import "GAITracker.h"
 #import "GAI.h"
 #import "GAIDictionaryBuilder.h"
+#import "FactsViewController.h"
 
 @interface FactsViewController ()
 
 @property (nonatomic, strong) NSMutableDictionary *facts;
 @property (nonatomic, strong) NSArray *factSectionTitles;
+@property (nonatomic, strong) ADBannerView *adView;
 
 @end
 
@@ -57,6 +59,7 @@
     }
     
     self.factSectionTitles = [[self.facts allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    self.canDisplayBannerAds = YES;
     
     id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
     
@@ -64,6 +67,13 @@
                                                           action:@"facts_loaded"  // Event action (required)
                                                            label:nil          // Event label
                                                            value:nil] build]];    // Event value
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    self.adView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 50, 320, 50)];
+    self.tableView.tableFooterView = self.adView;
 }
 
 - (void)didReceiveMemoryWarning {

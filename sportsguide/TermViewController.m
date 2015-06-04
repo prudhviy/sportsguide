@@ -7,19 +7,20 @@
 //
 
 #import <iAd/iAd.h>
+#import "GAITracker.h"
+#import "GAI.h"
+#import "GAIDictionaryBuilder.h"
 #import "TermViewController.h"
 #import "TermStore.h"
 #import "Term.h"
 #import "TermDetailViewController.h"
-#import "GAITracker.h"
-#import "GAI.h"
-#import "GAIDictionaryBuilder.h"
 
 @interface TermViewController () <UIScrollViewDelegate, UISearchResultsUpdating, UISearchBarDelegate>
 
 @property (nonatomic, strong) UISearchController *searchController;
 @property (nonatomic, strong) NSMutableArray *searchResults; // Filtered search results
 @property (nonatomic, strong) ADBannerView *adView;
+
 @end
 
 @implementation TermViewController
@@ -64,24 +65,26 @@
     self.searchController.searchBar.frame = CGRectMake(self.searchController.searchBar.frame.origin.x, self.searchController.searchBar.frame.origin.y, self.searchController.searchBar.frame.size.width, 44.0);
     self.searchController.dimsBackgroundDuringPresentation = FALSE;
     self.tableView.tableHeaderView = self.searchController.searchBar;
+    self.canDisplayBannerAds = YES;
     
     id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
     
-    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"     // Event category (required)
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"// Event category (required)
                                                           action:@"terms_view_loaded"  // Event action (required)
                                                            label:nil          // Event label
                                                         value:nil] build]];    // Event value
-    self.canDisplayBannerAds = YES;
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
     self.adView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 50, 320, 50)];
+    //[self.view addSubview: bannerView];
     self.tableView.tableFooterView = self.adView;
 }
 
-/*
+
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     //CGRect iAdFrame = self.adView.frame;
     //CGFloat newOriginY = self.tableView.contentOffset.y + self.tableView.frame.size.height - iAdFrame.size.height;
@@ -89,7 +92,7 @@
     //self.adView.frame = newIAdFrame;
     NSLog(@"Did Scroll");
 }
-*/
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -60,7 +60,7 @@
     
     NSArray *termsArray = [NSArray arrayWithContentsOfFile:termsPath];
     
-    NSLog(@"length : %lu", termsArray.count);
+    NSLog(@"length : %lu", (unsigned long)termsArray.count);
     
     for (NSDictionary *termDict in termsArray) {
         Term *newTerm = [[Term alloc] initWithTermName:termDict[@"itemTerm"]
