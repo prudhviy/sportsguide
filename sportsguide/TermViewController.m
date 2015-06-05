@@ -85,14 +85,14 @@
 }
 
 
--(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+/*-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     //CGRect iAdFrame = self.adView.frame;
     //CGFloat newOriginY = self.tableView.contentOffset.y + self.tableView.frame.size.height - iAdFrame.size.height;
     //CGRect newIAdFrame = CGRectMake(iAdFrame.origin.x, newOriginY, iAdFrame.size.width, iAdFrame.size.height);
     //self.adView.frame = newIAdFrame;
     NSLog(@"Did Scroll");
 }
-
+*/
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

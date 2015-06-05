@@ -24,20 +24,20 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5x-Ne-SvL" customClass="YTPlayerView">
-                    <rect key="frame" x="109" y="331" width="413" height="242"/>
-                    <color key="backgroundColor" red="0.84114583333333337" green="0.84114583333333337" blue="0.84114583333333337" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="When a ball is passd from the wings into the penalty area of the field; also known as a across" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76c-Il-EPg">
                     <rect key="frame" x="166" y="93" width="269" height="238"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="238" id="O4V-DY-uEz"/>
+                        <constraint firstAttribute="height" constant="200" id="O4V-DY-uEz"/>
                         <constraint firstAttribute="width" constant="269" id="lyd-Wz-raE"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5x-Ne-SvL" customClass="YTPlayerView">
+                    <rect key="frame" x="134" y="294" width="301" height="242"/>
+                    <color key="backgroundColor" red="0.84114583333333337" green="0.84114583333333337" blue="0.84114583333333337" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
