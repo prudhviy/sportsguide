@@ -10,6 +10,8 @@
 #import "Term.h"
 
 @interface TermDetailViewController ()
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIView *contentView;
 
 @property (weak, nonatomic) IBOutlet UILabel *termName;
 @property (weak, nonatomic) IBOutlet UILabel *termDetail;
@@ -43,6 +45,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    // [self.playerView loadWithVideoId:@"M7lc1UVf-VE"];
+}
+
+-(void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    self.scrollView.contentSize = self.contentView.frame.size;
     [self.playerView loadWithVideoId:@"M7lc1UVf-VE"];
 }
 

@@ -197,6 +197,7 @@
  
     // Give detail view controller a pointer to the item object in row
     detailViewController.term = selectedTerm;
+    detailViewController.hidesBottomBarWhenPushed = YES;
     // hide keyboard 
     [self.searchController.searchBar resignFirstResponder];
     self.searchController.searchBar.hidden = TRUE;

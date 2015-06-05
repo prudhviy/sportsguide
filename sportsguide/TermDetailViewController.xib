@@ -7,7 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermDetailViewController">
             <connections>
+                <outlet property="contentView" destination="UZP-f2-KZK" id="ufP-zj-0lL"/>
                 <outlet property="playerView" destination="d5x-Ne-SvL" id="qFz-qf-Tg8"/>
+                <outlet property="scrollView" destination="69M-oX-xyC" id="8zb-k9-5iI"/>
                 <outlet property="termDetail" destination="76c-Il-EPg" id="Txd-Rn-Qpz"/>
                 <outlet property="termName" destination="75V-zW-e9p" id="i7k-HK-36E"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -18,34 +20,40 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Term Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75V-zW-e9p">
-                    <rect key="frame" x="248" y="93" width="88" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="When a ball is passd from the wings into the penalty area of the field; also known as a across" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76c-Il-EPg">
-                    <rect key="frame" x="166" y="93" width="269" height="238"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="200" id="O4V-DY-uEz"/>
-                        <constraint firstAttribute="width" constant="269" id="lyd-Wz-raE"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5x-Ne-SvL" customClass="YTPlayerView">
-                    <rect key="frame" x="134" y="294" width="301" height="242"/>
-                    <color key="backgroundColor" red="0.84114583333333337" green="0.84114583333333337" blue="0.84114583333333337" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="69M-oX-xyC">
+                    <rect key="frame" x="0.0" y="0.0" width="381" height="523"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZP-f2-KZK">
+                            <rect key="frame" x="0.0" y="0.0" width="341" height="570"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bicycle or Scissors Kick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75V-zW-e9p">
+                                    <rect key="frame" x="62" y="27" width="203" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5x-Ne-SvL" customClass="YTPlayerView">
+                                    <rect key="frame" x="20" y="250" width="286" height="242"/>
+                                    <color key="backgroundColor" red="0.84114583333333337" green="0.84114583333333337" blue="0.84114583333333337" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76c-Il-EPg">
+                                    <rect key="frame" x="29" y="56" width="269" height="186"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="200" id="O4V-DY-uEz"/>
+                                        <constraint firstAttribute="width" constant="269" id="lyd-Wz-raE"/>
+                                    </constraints>
+                                    <string key="text">Nickname or abbreviation of the name given to the defenders who line up in the rear, in front of the goalkeeper; the name refers to the left and right fullbacks as well as the centerbacks, also known as sweepers</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                </scrollView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstAttribute="centerX" secondItem="75V-zW-e9p" secondAttribute="centerX" id="Dvy-xW-VUv"/>
-                <constraint firstAttribute="centerX" secondItem="76c-Il-EPg" secondAttribute="centerX" id="aMj-dG-Xlx"/>
-                <constraint firstItem="75V-zW-e9p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="93" id="fTM-5r-9Lr"/>
-                <constraint firstAttribute="centerX" secondItem="d5x-Ne-SvL" secondAttribute="centerX" id="pme-Al-OLU"/>
-            </constraints>
         </view>
     </objects>
 </document>
