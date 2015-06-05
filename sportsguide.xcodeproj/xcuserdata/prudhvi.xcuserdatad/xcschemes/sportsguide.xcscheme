@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4F2B9C81B05BAAF0007497A"
-               BuildableName = "sportsguide.app"
+               BuildableName = "GITS Soccer.app"
                BlueprintName = "sportsguide"
                ReferencedContainer = "container:sportsguide.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4F2B9C81B05BAAF0007497A"
-            BuildableName = "sportsguide.app"
+            BuildableName = "GITS Soccer.app"
             BlueprintName = "sportsguide"
             ReferencedContainer = "container:sportsguide.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4F2B9C81B05BAAF0007497A"
-            BuildableName = "sportsguide.app"
+            BuildableName = "GITS Soccer.app"
             BlueprintName = "sportsguide"
             ReferencedContainer = "container:sportsguide.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4F2B9C81B05BAAF0007497A"
-            BuildableName = "sportsguide.app"
+            BuildableName = "GITS Soccer.app"
             BlueprintName = "sportsguide"
             ReferencedContainer = "container:sportsguide.xcodeproj">
          </BuildableReference>
