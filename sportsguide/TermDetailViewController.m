@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 gits. All rights reserved.
 //
 
+#import <iAd/iAd.h>
 #import "TermDetailViewController.h"
 #import "Term.h"
 
@@ -16,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *termName;
 @property (weak, nonatomic) IBOutlet UILabel *termDetail;
 @property (weak, nonatomic) IBOutlet YTPlayerView *playerView;
+
+@property (nonatomic, strong) ADBannerView *adView;
 
 @end
 
@@ -45,13 +48,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.canDisplayBannerAds = YES;
 }
 
 -(void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    CGRect screenRect = [[UIScreen mainScreen] bounds];
     self.scrollView.contentSize = self.contentView.frame.size;
-    [self.playerView loadWithVideoId:@"M7lc1UVf-VE"];
+    [self.playerView loadWithVideoId:self.term.video];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -66,6 +69,13 @@
     
     self.termName.text = term.name;
     self.termDetail.text = term.detail;
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    self.adView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 50, [[UIScreen mainScreen] bounds].size.width, 50)];
+    [self.view addSubview: self.adView];
 }
 
 /*

@@ -25,6 +25,14 @@
     return _detail;
 }
 
+- (void) setVideo:(NSString *)video {
+    _video = video;
+}
+
+- (NSString *)video {
+    return _video;
+}
+
 - (void)setTermId:(int)v {
     _termId = v;
 }
@@ -37,8 +45,7 @@
     return [self initWithTermName:@"dummy_term"];
 }
 
-- (instancetype)initWithTermName:(NSString *)name detail:(NSString *)value
-                          termId:(int)idValue {
+- (instancetype)initWithTermName:(NSString *)name detail:(NSString *)value termId:(int)idValue  termVideo:(NSString *)video {
     // Call the superclass's designated initializer
     self = [super init];
     
@@ -48,6 +55,7 @@
         _name = name;
         _detail = value;
         _termId = idValue;
+        _video = video;
     }
     
     // Return the address of the newly initialized object
@@ -55,7 +63,7 @@
 }
 
 - (instancetype)initWithTermName:(NSString *)name {
-    return [self initWithTermName:name detail:@"" termId:0];
+    return [self initWithTermName:name detail:@"" termId:0 termVideo:@""];
 }
 
 + (instancetype)randomTerm {
@@ -83,7 +91,8 @@
     
     Term *newTerm = [[self alloc] initWithTermName:randomName
                                        detail:randomName
-                                         termId:randomId];
+                                         termId:randomId
+                                        termVideo:@"zrOb0fPinEQ"];
     return newTerm;
 }
 

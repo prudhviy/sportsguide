@@ -13,6 +13,7 @@
     NSString *_name;
     NSString *_detail;
     int _termId;
+    NSString *_video;
 }
 
 + (instancetype)randomTerm;
@@ -26,9 +27,12 @@
 - (void)setTermId:(int)v;
 - (int)termId;
 
+- (void) setVideo:(NSString *)video;
+- (NSString *)video;
+
 // Designated initializer for Term
 - (instancetype)initWithTermName:(NSString *)name detail:(NSString *)value
-                    termId:(int)idValue;
+                          termId:(int)idValue termVideo:(NSString *)video;
 
 - (instancetype)initWithTermName:(NSString *)name;
 

@@ -65,7 +65,8 @@
     for (NSDictionary *termDict in termsArray) {
         Term *newTerm = [[Term alloc] initWithTermName:termDict[@"itemTerm"]
                                                 detail:termDict[@"itemDetail"]
-                                                termId:[termDict[@"itemId"] intValue]];
+                                                termId:[termDict[@"itemId"] intValue]
+                                                termVideo:termDict[@"itemVideo"]];
         [self.privateTerms addObject:newTerm];
         newTerm = nil;
     }
