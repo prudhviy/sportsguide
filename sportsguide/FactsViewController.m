@@ -11,6 +11,7 @@
 #import "GAI.h"
 #import "GAIDictionaryBuilder.h"
 #import "FactsViewController.h"
+#import "FactsDetailViewController.h"
 
 @interface FactsViewController ()
 
@@ -54,6 +55,7 @@
     
     for (int i = 0; i < [factsArray count]; i++) {
         NSString *title = [factsArray[i] objectForKey:@"factTitle"];
+
         NSArray *descArray = [factsArray[i] objectForKey:@"arraypart"];
         self.facts[title] = descArray;
     }
@@ -159,21 +161,21 @@
 }
 */
 
-/*
+
 #pragma mark - Table view delegate
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here, for example:
-    // Create the next view controller.
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
-    
-    // Pass the selected object to the new view controller.
-    
-    // Push the view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    //[self.navigationController pushViewController:detailViewController animated:YES];
+
+    FactsDetailViewController *detailVC = [[FactsDetailViewController alloc] init];
+    id aKey = [self.factSectionTitles objectAtIndex:indexPath.section];
+    NSArray *factsDescArray = [self.facts objectForKey:aKey];
+    detailVC.fact = factsDescArray[indexPath.row];
+    detailVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:detailVC animated:YES];
 }
-*/
+
 
 /*
 #pragma mark - Navigation

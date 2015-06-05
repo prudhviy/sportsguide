@@ -17,6 +17,8 @@
 		A41D1DD91B1D24BB0010FA5A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */; };
 		A41D1DDB1B1D25110010FA5A /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */; };
 		A41D1DDD1B1FCC1E0010FA5A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DDC1B1FCC1E0010FA5A /* iAd.framework */; };
+		A43060A31B222EDA00EC8C48 /* FactsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43060A11B222EDA00EC8C48 /* FactsDetailViewController.m */; };
+		A43060A41B222EDA00EC8C48 /* FactsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43060A21B222EDA00EC8C48 /* FactsDetailViewController.xib */; };
 		A45EC8781B152DCE0071B6AB /* FactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45EC8761B152DCE0071B6AB /* FactsViewController.m */; };
 		A45EC8791B152DCE0071B6AB /* FactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45EC8771B152DCE0071B6AB /* FactsViewController.xib */; };
 		A4F2B9CF1B05BAAF0007497A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9CE1B05BAAF0007497A /* main.m */; };
@@ -65,6 +67,9 @@
 		A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		A41D1DDA1B1D25110010FA5A /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../david_new/GoogleAnalyticsServicesiOS_3.12/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		A41D1DDC1B1FCC1E0010FA5A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A43060A01B222EDA00EC8C48 /* FactsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsDetailViewController.h; sourceTree = "<group>"; };
+		A43060A11B222EDA00EC8C48 /* FactsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsDetailViewController.m; sourceTree = "<group>"; };
+		A43060A21B222EDA00EC8C48 /* FactsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsDetailViewController.xib; sourceTree = "<group>"; };
 		A45EC8751B152DCE0071B6AB /* FactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsViewController.h; sourceTree = "<group>"; };
 		A45EC8761B152DCE0071B6AB /* FactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsViewController.m; sourceTree = "<group>"; };
 		A45EC8771B152DCE0071B6AB /* FactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsViewController.xib; sourceTree = "<group>"; };
@@ -165,6 +170,9 @@
 				A45EC8751B152DCE0071B6AB /* FactsViewController.h */,
 				A45EC8761B152DCE0071B6AB /* FactsViewController.m */,
 				A45EC8771B152DCE0071B6AB /* FactsViewController.xib */,
+				A43060A01B222EDA00EC8C48 /* FactsDetailViewController.h */,
+				A43060A11B222EDA00EC8C48 /* FactsDetailViewController.m */,
+				A43060A21B222EDA00EC8C48 /* FactsDetailViewController.xib */,
 				A4F2B9D91B05BAAF0007497A /* Images.xcassets */,
 				A41D1DC91B1D239A0010FA5A /* GAI.h */,
 				A41D1DCA1B1D239A0010FA5A /* GAIDictionaryBuilder.h */,
@@ -297,6 +305,7 @@
 				A4F2BA071B05C5280007497A /* TermViewController.xib in Resources */,
 				A4F2B9DA1B05BAAF0007497A /* Images.xcassets in Resources */,
 				A40D30DD1B096F6B00B75020 /* facts.plist in Resources */,
+				A43060A41B222EDA00EC8C48 /* FactsDetailViewController.xib in Resources */,
 				A40D30DE1B096F6B00B75020 /* SoccerballItem.plist in Resources */,
 				A4F2BA0E1B05C8A40007497A /* TermDetailViewController.xib in Resources */,
 			);
@@ -323,6 +332,7 @@
 				A4F2B9CF1B05BAAF0007497A /* main.m in Sources */,
 				A45EC8781B152DCE0071B6AB /* FactsViewController.m in Sources */,
 				A4F2BA061B05C5280007497A /* TermViewController.m in Sources */,
+				A43060A31B222EDA00EC8C48 /* FactsDetailViewController.m in Sources */,
 				A41C87A81B0FFE2A004B3E75 /* YTPlayerView.m in Sources */,
 				A4F2B9FA1B05BC900007497A /* TermStore.m in Sources */,
 			);

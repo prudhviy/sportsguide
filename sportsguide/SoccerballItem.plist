@@ -4,6 +4,16 @@
 <array>
 	<dict>
 		<key>itemDetail</key>
+		<string>A game played on a field between two teams of 11 players each with the object to propel a round ball into the opponent's goal by kicking or by hitting it with any part of the body except the hands and arms -- called also association football</string>
+		<key>itemId</key>
+		<integer>1</integer>
+		<key>itemPersonId</key>
+		<integer>10</integer>
+		<key>itemTerm</key>
+		<string>Soccer</string>
+	</dict>
+	<dict>
+		<key>itemDetail</key>
 		<string>A referee can decide not to call an infraction if allowing play to continue creates an advantage for the fouled team</string>
 		<key>itemId</key>
 		<integer>1</integer>

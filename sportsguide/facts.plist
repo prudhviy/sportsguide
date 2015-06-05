@@ -5,13 +5,12 @@
 	<dict>
 		<key>arraypart</key>
 		<array>
-			<string>U.S. Soccers All-Time Athlete of the Year Award Winners</string>
-			<string>Elected on June 21, 1913, Dr.G.Randolph, who was also the American Amateur FootballAssociation President, was the first president of U.S. Soccer (then the USFA).</string>
-			<string>Throughout the 90-year histroy of U.S. Soccer, the organization has been known by three different names;</string>
-			<string>U.S. Football Association - 1913 -1944</string>
-			<string>U.S. Soccer Football Association - 1945 -1973</string>
+			<string>The United States Football Association (renamed U.S. Soccer Federation) was granted provisonal membership by the federation intermationale de Football Association (FIFA) on August 15, 1913. A year later the organiation was granted full membership</string>
+			<string>Elected on June 21, 1913, Dr.G.Randolph, who was also the American Amateur FootballAssociation President, was the first president of U.S. Soccer (then the USFA)</string>
+			<string>Throughout the 90-year histroy of U.S. Soccer, the organization has been known by three different names</string>
+			<string>U.S. Football Association - 1913 - 1944</string>
+			<string>U.S. Soccer Football Association - 1945 - 1973</string>
 			<string>U.S. Soccer Federation - 1947 - Current</string>
-			<string>The United States Football Association (renamed U.S. Soccer Federation) was granted provisonal membership by the federation intermationale de Football Association (FIFA) on August 15, 1913. A year later the organiation was granted full membership.</string>
 		</array>
 		<key>factTitle</key>
 		<string>ABOUT U.S SOCCER</string>
@@ -43,7 +42,58 @@
 			<string>2005 Kasey Keller</string>
 		</array>
 		<key>factTitle</key>
-		<string>YEAR MALE ATHLETE OF THE YEAR</string>
+		<string>MALE ATHLETE OF THE YEAR</string>
+	</dict>
+	<dict>
+		<key>arraypart</key>
+		<array>
+			<string>1984 - 1985 Sharon Remer</string>
+			<string>1986 April Heinrichs</string>
+			<string>1987 Carin Jennings</string>
+			<string>1988 Joy Biefeld</string>
+			<string>1989 April Heinrichs</string>
+			<string>1990 - 1991 Michelle Akers</string>
+			<string>1992 Carin Gabarra</string>
+			<string>1993 Kristine Lilly</string>
+			<string>1994 - 1999 Mia Hamm</string>
+			<string>1999 Michelle Akers</string>
+			<string>2000 - 2001 Tiffeny Milbrett</string>
+			<string>2002 Shannon MacMillan</string>
+			<string>2003 - 2004 Abby Wambach</string>
+			<string>2005 Kristine Lilly</string>
+		</array>
+		<key>factTitle</key>
+		<string>FEMALE ATHLETE OF THE YEAR</string>
+	</dict>
+	<dict>
+		<key>arraypart</key>
+		<array>
+			<string>1998 Josh Wolff</string>
+			<string>1999 Ben Olsen</string>
+			<string>2000 Landon Donovan</string>
+			<string>2001 DaMarcus Beasley</string>
+			<string>2002 Bobby Convey</string>
+			<string>2003 Freddy Adu</string>
+			<string>2004 Ed Johnson</string>
+			<string>2005 Benny Feilhaber</string>
+		</array>
+		<key>factTitle</key>
+		<string>YOUNG MALE ATHLETE OF THE YEAR</string>
+	</dict>
+	<dict>
+		<key>arraypart</key>
+		<array>
+			<string>1998 Cindy Parlow</string>
+			<string>1999 Lorrie Fair</string>
+			<string>2000 Aly Wagner</string>
+			<string>2001 Aleisha Cramer</string>
+			<string>2002 Lindsay Tarpley</string>
+			<string>2003 Cat Reddick</string>
+			<string>2004 Heather O’Reilly</string>
+			<string>2005 Lori Chalupny</string>
+		</array>
+		<key>factTitle</key>
+		<string>YOUNG FEMALE ATHLETE OF THE YEAR</string>
 	</dict>
 </array>
 </plist>

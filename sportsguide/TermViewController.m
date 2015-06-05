@@ -252,7 +252,7 @@
                                                                                 error:&regexError];
         
         if (regexError){
-            NSLog(@"Regex creation failed with error: %@", [regexError description]);
+            //NSLog(@"Regex creation failed with error: %@", [regexError description]);
             return;
         }
         
