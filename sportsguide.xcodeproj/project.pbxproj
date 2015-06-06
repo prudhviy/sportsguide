@@ -513,7 +513,7 @@
 				INFOPLIST_FILE = sportsguideTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sportsguide.app/sportsguide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GITS Soccer.app/GITS Soccer";
 			};
 			name = Debug;
 		};
@@ -528,7 +528,7 @@
 				INFOPLIST_FILE = sportsguideTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sportsguide.app/sportsguide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GITS Soccer.app/GITS Soccer";
 			};
 			name = Release;
 		};
