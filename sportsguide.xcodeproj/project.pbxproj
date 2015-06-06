@@ -18,7 +18,7 @@
 		A41D1DDD1B1FCC1E0010FA5A /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41D1DDC1B1FCC1E0010FA5A /* iAd.framework */; };
 		A43060A31B222EDA00EC8C48 /* FactsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43060A11B222EDA00EC8C48 /* FactsDetailViewController.m */; };
 		A43060A41B222EDA00EC8C48 /* FactsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43060A21B222EDA00EC8C48 /* FactsDetailViewController.xib */; };
-		A43060A61B22C4B500EC8C48 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A43060A51B22C4B500EC8C48 /* libGoogleAnalyticsServices.a */; };
+		A43060A81B22C63900EC8C48 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A43060A71B22C63900EC8C48 /* libGoogleAnalyticsServices.a */; };
 		A45EC8781B152DCE0071B6AB /* FactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45EC8761B152DCE0071B6AB /* FactsViewController.m */; };
 		A45EC8791B152DCE0071B6AB /* FactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A45EC8771B152DCE0071B6AB /* FactsViewController.xib */; };
 		A4F2B9CF1B05BAAF0007497A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9CE1B05BAAF0007497A /* main.m */; };
@@ -69,7 +69,7 @@
 		A43060A01B222EDA00EC8C48 /* FactsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsDetailViewController.h; sourceTree = "<group>"; };
 		A43060A11B222EDA00EC8C48 /* FactsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsDetailViewController.m; sourceTree = "<group>"; };
 		A43060A21B222EDA00EC8C48 /* FactsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsDetailViewController.xib; sourceTree = "<group>"; };
-		A43060A51B22C4B500EC8C48 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		A43060A71B22C63900EC8C48 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = sportsguide/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		A45EC8751B152DCE0071B6AB /* FactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsViewController.h; sourceTree = "<group>"; };
 		A45EC8761B152DCE0071B6AB /* FactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsViewController.m; sourceTree = "<group>"; };
 		A45EC8771B152DCE0071B6AB /* FactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsViewController.xib; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43060A81B22C63900EC8C48 /* libGoogleAnalyticsServices.a in Frameworks */,
 				A41D1DDD1B1FCC1E0010FA5A /* iAd.framework in Frameworks */,
 				A41D1DD91B1D24BB0010FA5A /* libsqlite3.dylib in Frameworks */,
-				A43060A61B22C4B500EC8C48 /* libGoogleAnalyticsServices.a in Frameworks */,
 				A41D1DD71B1D24A80010FA5A /* libz.dylib in Frameworks */,
 				A41D1DD51B1D24940010FA5A /* SystemConfiguration.framework in Frameworks */,
 				A41D1DD31B1D246D0010FA5A /* CoreData.framework in Frameworks */,
@@ -125,8 +125,8 @@
 		A4F2B9C01B05BAAF0007497A = {
 			isa = PBXGroup;
 			children = (
+				A43060A71B22C63900EC8C48 /* libGoogleAnalyticsServices.a */,
 				A41D1DDC1B1FCC1E0010FA5A /* iAd.framework */,
-				A43060A51B22C4B500EC8C48 /* libGoogleAnalyticsServices.a */,
 				A41D1DD81B1D24BB0010FA5A /* libsqlite3.dylib */,
 				A41D1DD61B1D24A80010FA5A /* libz.dylib */,
 				A41D1DD41B1D24940010FA5A /* SystemConfiguration.framework */,
@@ -472,6 +472,7 @@
 					"$(inherited)",
 					/Users/prudhvi/Documents/david_new/GoogleAnalyticsServicesiOS_3.12,
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/sportsguide",
 				);
 				PRODUCT_NAME = "GITS Soccer";
 				PROVISIONING_PROFILE = "";
@@ -493,6 +494,7 @@
 					"$(inherited)",
 					/Users/prudhvi/Documents/david_new/GoogleAnalyticsServicesiOS_3.12,
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/sportsguide",
 				);
 				PRODUCT_NAME = "GITS Soccer";
 				PROVISIONING_PROFILE = "";
