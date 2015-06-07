@@ -26,18 +26,26 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UZP-f2-KZK">
                             <rect key="frame" x="0.0" y="0.0" width="600" height="717"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bicycle or Scissors Kick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75V-zW-e9p">
-                                    <rect key="frame" x="62" y="27" width="203" height="21"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bicycle or Scissors Kick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75V-zW-e9p">
+                                    <rect key="frame" x="209" y="40" width="183" height="21"/>
                                     <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                     <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5x-Ne-SvL" customClass="YTPlayerView">
-                                    <rect key="frame" x="20" y="268" width="286" height="242"/>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d5x-Ne-SvL" customClass="YTPlayerView">
+                                    <rect key="frame" x="150" y="261" width="300" height="280"/>
                                     <color key="backgroundColor" red="0.84114583333333337" green="0.84114583333333337" blue="0.84114583333333337" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="280" id="L1T-9S-fXB"/>
+                                        <constraint firstAttribute="width" constant="300" id="vZJ-4A-8BQ"/>
+                                    </constraints>
                                 </view>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76c-Il-EPg">
-                                    <rect key="frame" x="13" y="64" width="300" height="196"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76c-Il-EPg">
+                                    <rect key="frame" x="150" y="91" width="300" height="150"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="150" id="MJ0-5z-cmk"/>
+                                        <constraint firstAttribute="width" constant="300" id="qEZ-5B-z3V"/>
+                                    </constraints>
                                     <string key="text">Awarded for any personal fouls or for intentionally handling of the ball by a defending player within the penalty area; a penalty shot is taken from the designated spot, 12 yards from the goal line in the center of the penalty area, with only the goalkeeper defending the shot</string>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,8 +54,14 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
+                                <constraint firstItem="d5x-Ne-SvL" firstAttribute="top" secondItem="75V-zW-e9p" secondAttribute="bottom" constant="200" id="4Ij-Q1-qAs"/>
+                                <constraint firstItem="76c-Il-EPg" firstAttribute="top" secondItem="75V-zW-e9p" secondAttribute="bottom" constant="30" id="Az4-Sx-sOM"/>
+                                <constraint firstAttribute="centerX" secondItem="76c-Il-EPg" secondAttribute="centerX" id="ZxX-1o-94n"/>
                                 <constraint firstAttribute="width" constant="600" id="dQU-TN-C7S"/>
+                                <constraint firstItem="75V-zW-e9p" firstAttribute="top" secondItem="UZP-f2-KZK" secondAttribute="top" constant="40" id="ipy-mc-xsr"/>
                                 <constraint firstAttribute="height" constant="717" id="rJ3-tv-cxr"/>
+                                <constraint firstAttribute="centerX" secondItem="d5x-Ne-SvL" secondAttribute="centerX" id="tTt-RJ-z38"/>
+                                <constraint firstAttribute="centerX" secondItem="75V-zW-e9p" secondAttribute="centerX" id="yax-Tb-jGn"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -67,7 +81,7 @@
                 <constraint firstAttribute="bottom" secondItem="69M-oX-xyC" secondAttribute="bottom" constant="50" id="fJj-42-JKF"/>
                 <constraint firstItem="69M-oX-xyC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mG5-QW-27z"/>
             </constraints>
-            <point key="canvasLocation" x="-24" y="290"/>
+            <point key="canvasLocation" x="-4" y="288"/>
         </view>
     </objects>
 </document>
