@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface TermViewController : UITableViewController
+@interface TermViewController : UITableViewController<ADBannerViewDelegate>
 
 //- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
 

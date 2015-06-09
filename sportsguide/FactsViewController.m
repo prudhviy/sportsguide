@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 gits. All rights reserved.
 //
 
-#import <iAd/iAd.h>
 #import "GAITracker.h"
 #import "GAI.h"
 #import "GAIDictionaryBuilder.h"
@@ -18,6 +17,7 @@
 @property (nonatomic, strong) NSMutableDictionary *facts;
 @property (nonatomic, strong) NSArray *factSectionTitles;
 @property (nonatomic, strong) ADBannerView *adView;
+@property (nonatomic, assign) BOOL _bannerIsVisible;
 
 @end
 
@@ -75,7 +75,29 @@
     [super viewDidAppear:animated];
     
     self.adView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 50, [[UIScreen mainScreen] bounds].size.width, 50)];
-    self.tableView.tableFooterView = self.adView;
+    self.adView.delegate = self;
+}
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    if (!self._bannerIsVisible) {
+        // If banner isn't part of view hierarchy, add it
+        if (self.adView.superview == nil) {
+            self.tableView.tableFooterView = self.adView;
+        }
+        
+        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+        
+        // Assumes the banner view is just off the bottom of the screen.
+        banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
+        
+        [UIView commitAnimations];
+        
+        self._bannerIsVisible = YES;
+    }
+}
+
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    NSLog(@"Failed to retrieve ad");
 }
 
 - (void)didReceiveMemoryWarning {

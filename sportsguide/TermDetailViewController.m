@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet YTPlayerView *playerView;
 
 @property (nonatomic, strong) ADBannerView *adView;
+@property (nonatomic, assign) BOOL _bannerIsVisible;
 
 @end
 
@@ -54,7 +55,11 @@
 -(void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     self.scrollView.contentSize = self.contentView.frame.size;
-    [self.playerView loadWithVideoId:self.term.video];
+    if(![self.term.video isEqualToString: @"none"]) {
+        [self.playerView loadWithVideoId:self.term.video];
+    } else {
+        [self.playerView removeFromSuperview];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -75,7 +80,29 @@
     [super viewDidAppear:animated];
     
     self.adView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 50, [[UIScreen mainScreen] bounds].size.width, 50)];
-    [self.view addSubview: self.adView];
+    self.adView.delegate = self;
+}
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner {
+    if (!self._bannerIsVisible) {
+        // If banner isn't part of view hierarchy, add it
+        if (self.adView.superview == nil) {
+            [self.view addSubview: self.adView];
+        }
+        
+        [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
+        
+        // Assumes the banner view is just off the bottom of the screen.
+        banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
+        
+        [UIView commitAnimations];
+        
+        self._bannerIsVisible = YES;
+    }
+}
+
+- (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    NSLog(@"Failed to retrieve ad");
 }
 
 /*

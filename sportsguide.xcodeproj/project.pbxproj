@@ -26,7 +26,6 @@
 		A4F2B9D51B05BAAF0007497A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9D41B05BAAF0007497A /* ViewController.m */; };
 		A4F2B9D81B05BAAF0007497A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F2B9D61B05BAAF0007497A /* Main.storyboard */; };
 		A4F2B9DA1B05BAAF0007497A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F2B9D91B05BAAF0007497A /* Images.xcassets */; };
-		A4F2B9DD1B05BAAF0007497A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F2B9DB1B05BAAF0007497A /* LaunchScreen.xib */; };
 		A4F2B9E91B05BAAF0007497A /* sportsguideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9E81B05BAAF0007497A /* sportsguideTests.m */; };
 		A4F2B9FA1B05BC900007497A /* TermStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9F91B05BC900007497A /* TermStore.m */; };
 		A4F2B9FD1B05BE130007497A /* Term.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F2B9FC1B05BE130007497A /* Term.m */; };
@@ -82,7 +81,6 @@
 		A4F2B9D41B05BAAF0007497A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4F2B9D71B05BAAF0007497A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4F2B9D91B05BAAF0007497A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A4F2B9DC1B05BAAF0007497A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A4F2B9E21B05BAAF0007497A /* sportsguideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sportsguideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F2B9E71B05BAAF0007497A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F2B9E81B05BAAF0007497A /* sportsguideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sportsguideTests.m; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 				A41C87A61B0FFE2A004B3E75 /* YTPlayerView.h */,
 				A41C87A71B0FFE2A004B3E75 /* YTPlayerView.m */,
 				A4F2B9D61B05BAAF0007497A /* Main.storyboard */,
-				A4F2B9DB1B05BAAF0007497A /* LaunchScreen.xib */,
 				A4F2B9F81B05BC900007497A /* TermStore.h */,
 				A4F2B9F91B05BC900007497A /* TermStore.m */,
 				A4F2B9FB1B05BE130007497A /* Term.h */,
@@ -301,7 +298,6 @@
 				A45EC8791B152DCE0071B6AB /* FactsViewController.xib in Resources */,
 				A4F2B9D81B05BAAF0007497A /* Main.storyboard in Resources */,
 				A41C87AA1B0FFE3B004B3E75 /* Assets in Resources */,
-				A4F2B9DD1B05BAAF0007497A /* LaunchScreen.xib in Resources */,
 				A4F2BA071B05C5280007497A /* TermViewController.xib in Resources */,
 				A4F2B9DA1B05BAAF0007497A /* Images.xcassets in Resources */,
 				A40D30DD1B096F6B00B75020 /* facts.plist in Resources */,
@@ -363,14 +359,6 @@
 				A4F2B9D71B05BAAF0007497A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4F2B9DB1B05BAAF0007497A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4F2B9DC1B05BAAF0007497A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface FactsViewController : UITableViewController
+@interface FactsViewController : UITableViewController<ADBannerViewDelegate>
 
 @end

@@ -11,7 +11,7 @@
 
 @class Term;
 
-@interface TermDetailViewController : UIViewController
+@interface TermDetailViewController : UIViewController<ADBannerViewDelegate>
 
 @property (nonatomic, strong) Term *term;
 
