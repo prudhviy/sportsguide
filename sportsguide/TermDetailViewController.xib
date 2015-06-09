@@ -57,7 +57,6 @@
                                 <constraint firstItem="76c-Il-EPg" firstAttribute="top" secondItem="75V-zW-e9p" secondAttribute="bottom" constant="30" id="Az4-Sx-sOM"/>
                                 <constraint firstItem="d5x-Ne-SvL" firstAttribute="top" secondItem="75V-zW-e9p" secondAttribute="bottom" constant="250" id="OIn-Vb-Tm4"/>
                                 <constraint firstAttribute="centerX" secondItem="76c-Il-EPg" secondAttribute="centerX" id="ZxX-1o-94n"/>
-                                <constraint firstAttribute="width" constant="600" id="dQU-TN-C7S"/>
                                 <constraint firstItem="75V-zW-e9p" firstAttribute="top" secondItem="UZP-f2-KZK" secondAttribute="top" constant="40" id="ipy-mc-xsr"/>
                                 <constraint firstAttribute="height" constant="580" id="nfT-De-6NT"/>
                                 <constraint firstAttribute="centerX" secondItem="d5x-Ne-SvL" secondAttribute="centerX" id="tTt-RJ-z38"/>
