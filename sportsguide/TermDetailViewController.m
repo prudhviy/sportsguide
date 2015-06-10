@@ -106,7 +106,7 @@
 }
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
-    NSLog(@"Failed to retrieve ad");
+    //NSLog(@"Failed to retrieve ad");
 }
 
 /*
