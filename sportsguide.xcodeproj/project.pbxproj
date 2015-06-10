@@ -463,7 +463,7 @@
 					"$(PROJECT_DIR)/sportsguide",
 				);
 				PRODUCT_NAME = "GITS Soccer";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6a9c4b35-c853-40e4-87b9-0727538e3042";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -485,7 +485,7 @@
 					"$(PROJECT_DIR)/sportsguide",
 				);
 				PRODUCT_NAME = "GITS Soccer";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6a9c4b35-c853-40e4-87b9-0727538e3042";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
