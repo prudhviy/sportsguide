@@ -55,10 +55,14 @@
 -(void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     self.scrollView.contentSize = self.contentView.frame.size;
+    
     if(![self.term.video isEqualToString: @"none"]) {
         [self.playerView loadWithVideoId:self.term.video];
     } else {
         [self.playerView removeFromSuperview];
+        // remove scroll as we dont have enough content
+        [self.scrollView setContentSize:(CGSizeMake([[UIScreen mainScreen] bounds].size.width, 230))];
+
     }
 }
 
