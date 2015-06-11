@@ -3,12 +3,11 @@
     {
       "idiom" : "iphone",
       "scale" : "1x",
-      "filename" : "Termicon.png"
+      "filename" : "player.png"
     },
     {
       "idiom" : "iphone",
-      "scale" : "2x",
-      "filename" : "Termicon@2x.png"
+      "scale" : "2x"
     },
     {
       "idiom" : "iphone",

@@ -120,7 +120,7 @@
 		<key>itemTerm</key>
 		<string>Center Forward</string>
 		<key>itemVideo</key>
-		<string>ZxLqvGIzThU</string>
+		<string>none</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
@@ -240,7 +240,7 @@
 		<key>itemTerm</key>
 		<string>Goal</string>
 		<key>itemVideo</key>
-		<string>yV-3fMU0tnU</string>
+		<string>none</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
@@ -276,7 +276,7 @@
 		<key>itemTerm</key>
 		<string>Goal Keeper</string>
 		<key>itemVideo</key>
-		<string>none</string>
+		<string>yV-3fMU0tnU</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>
@@ -372,7 +372,7 @@
 		<key>itemTerm</key>
 		<string>Header</string>
 		<key>itemVideo</key>
-		<string>none</string>
+		<string>ZxLqvGIzThU</string>
 	</dict>
 	<dict>
 		<key>itemDetail</key>

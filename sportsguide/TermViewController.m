@@ -142,10 +142,11 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell" forIndexPath:indexPath];
- 
+    //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell" forIndexPath:indexPath];
+    
+    
     // Create an instance of UITableViewCell, with default appearance
-    //UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
  
     // Set the text on the cell with the description of the item
     // that is at the nth index of items, where n = row this cell
@@ -157,8 +158,10 @@
         NSArray *terms = [[TermStore sharedStore] allTerms];
         Term *term = terms[indexPath.row];
         cell.textLabel.text = [term name];
+        if(![term.video isEqualToString: @"none"]) {
+            cell.imageView.image = [UIImage imageNamed:@"player.png"];
+        }
     }
-    
     
     id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
     
