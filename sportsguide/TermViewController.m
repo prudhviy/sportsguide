@@ -211,10 +211,15 @@
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     TermDetailViewController *detailViewController = [[TermDetailViewController alloc] init];
- 
-    NSArray *terms = [[TermStore sharedStore] allTerms];
-    Term *selectedTerm = terms[indexPath.row];
- 
+    Term *selectedTerm;
+    
+    if (self.searchController.active) {
+        selectedTerm = self.searchResults[indexPath.row];
+    } else {
+        NSArray *terms = [[TermStore sharedStore] allTerms];
+        selectedTerm = terms[indexPath.row];
+    }
+    
     // Give detail view controller a pointer to the item object in row
     detailViewController.term = selectedTerm;
     detailViewController.hidesBottomBarWhenPushed = YES;
